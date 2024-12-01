@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Огненное Сердце",
+    "slug": "CrashTheCastle",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/MV-crooker.ttf"
+          ]
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "rgb(27, 32, 52)"
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "rgb(27, 32, 52)"
+      },
+      "permissions": [
+        "android.permission.HIGH_SAMPLING_RATE_SENSORS"
+      ],
+      "package": "com.tana123.CrashTheCastle"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "569f8aed-6c5c-4b5b-93fd-1f95795bd72c"
+      }
+    }
+  }
+}
